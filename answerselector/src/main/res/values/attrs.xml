@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Developed by Dimitry Poroshyn on 7/30/19 10:22 AM
+  ~ Last modified 7/30/19 10:22 AM
+  ~ Copyright (c) 2019.  All rights reserved.
+  -->
+
+<resources>
+    <declare-styleable name="AnswerSelectorView">
+        <attr name="titleSelector" format="string" />
+        <attr name="left" format="string" />
+        <attr name="middle" format="string" />
+        <attr name="right" format="string" />
+        <attr name="baseIdLeft" format="integer" />
+        <attr name="baseIdMiddle" format="integer" />
+        <attr name="baseIdRight" format="integer" />
+    </declare-styleable>
+</resources>

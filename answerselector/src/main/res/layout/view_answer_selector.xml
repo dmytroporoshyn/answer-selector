@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Developed by Dimitry Poroshyn on 7/31/19 2:05 PM
+  ~ Last modified 7/31/19 2:05 PM
+  ~ Copyright (c) 2019.  All rights reserved.
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title"
+            android:textColor="@color/blackText"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <com.dmytroporoshyn.answerselectorview.AnswerItemView
+                android:id="@+id/left"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:layout_marginEnd="7dp"
+                android:layout_height="match_parent" android:focusable="true">
+
+        </com.dmytroporoshyn.answerselectorview.AnswerItemView>
+
+        <com.dmytroporoshyn.answerselectorview.AnswerItemView
+                android:id="@+id/middle"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginEnd="7dp"
+                android:layout_height="match_parent" android:focusable="true">
+
+        </com.dmytroporoshyn.answerselectorview.AnswerItemView>
+
+        <com.dmytroporoshyn.answerselectorview.AnswerItemView
+                android:id="@+id/right"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:layout_marginStart="7dp"
+                android:layout_height="match_parent" android:focusable="true">
+
+        </com.dmytroporoshyn.answerselectorview.AnswerItemView>
+
+    </LinearLayout>
+</LinearLayout>
