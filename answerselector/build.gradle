@@ -36,4 +36,4 @@ dependencies {
 
 apply plugin: 'com.github.dcendents.android-maven'
 
-group='com.github.Dmytro-Poroshyn'
+group='com.github.dmytroporoshyn'
